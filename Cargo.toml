@@ -1,0 +1,12 @@
+[package]
+name = "rust-skia-underline-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gl = "0.14.0"
+glutin = "0.32.0"
+glutin-winit = "0.5.0"
+raw-window-handle = "0.6.2"
+skia-safe = { version = "0.75.0", features = ["gl", "textlayout", "svg"] }
+winit = "0.30.5"
